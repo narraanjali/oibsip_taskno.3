@@ -10,15 +10,6 @@ class BankAccount {
     int transactions = 0;
     String transactionHistory = "";
 
-    /**
-     * ccount(String name, String userName, String password, String accountNo) {
-     * this.name =Kandunuri rujala;
-     * this.userName =srujalak;
-     * this.password =QWERTY;
-     * this.accountNo =123456789;
-     * }
-     */
-
     public void register() {
         Scanner sc = new Scanner(System.in);
         System.out.print("\nEnter Your Name - ");
